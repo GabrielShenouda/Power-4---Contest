@@ -24,5 +24,3 @@ The second heuristic works in the same way as the first one (evaluation of the g
 As with the first heuristic, the evaluation is done by summing the player's points and subtracting the opponent's points.
 On the other hand, this heuristic being very time consuming for a depth exceeding 5, we decided not to apply it on the whole board, but only on the rows, columns and diagonals (ascending and descending) associated to the last two moves played (the player's and the opponent's). This considerably reduces the speed of execution and only slightly decreases the efficiency of the AI because the "heat of the action" is often around the last chips played.
 For your information, using this method reduced the average execution time from 50-60 sec to 10-15 sec in depth 6 and from 30-35 sec to 3-8 sec in depth 5.
-
-Translated with www.DeepL.com/Translator (free version)
